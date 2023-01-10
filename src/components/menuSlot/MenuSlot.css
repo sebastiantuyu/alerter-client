@@ -1,0 +1,24 @@
+.adl-menu-slot {
+  width: calc(100% - 15px);
+  height: 80px;
+  /* border-bottom: 1px solid #222; */
+  display: flex;
+  align-items: center;
+  color: #f2f2f2;
+  padding: 0 0 0 15px;
+  background: #ffffff03;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;}
+
+.adl-menu-slot__badge img {
+  width: 25px;
+  height: 25px;
+  font-size: 17px;
+}
+
+.adl-menu-slot__badge {
+  height: fit-content;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
