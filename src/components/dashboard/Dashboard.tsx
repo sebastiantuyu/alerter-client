@@ -1,19 +1,22 @@
+import React from 'react';
 import { faShareFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
-import './Dashboard.css';
+import DashboardBody from './body/DashboardBody';
+import './Dashboard.scss';
+import DashboardHeader from './header/DashboardHeader';
 
 const Dashboard = () => {
   return (
     <div className='adl-dashboard'>
-      <div className="adl-dashboard__title">
-        Dashboard
-      </div>
+        <button className="adl-dashboard__share">
+          <FontAwesomeIcon icon={faShareFromSquare}/>
+            <span>
+              Share
+            </span>
+        </button>
 
-      <button>
-        <FontAwesomeIcon icon={faShareFromSquare}/>
-        Share
-      </button>      
+        <DashboardHeader /> 
+        <DashboardBody />     
     </div>
   )
 }

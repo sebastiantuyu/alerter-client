@@ -1,0 +1,17 @@
+.adl-dashboard {
+  width: inherit;
+  background: #222;
+  height: 100%;
+  
+  &__header {
+    height: fit-content;
+    max-height: 50px;
+
+    &--title {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 30px 35px 0 30px;
+      line-height: 32px;
+    }
+  }
+}

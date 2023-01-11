@@ -1,0 +1,35 @@
+.adl-dashboard {
+  &--search {
+    display: inline-flex;
+    min-width: max-content;
+    margin: 15px 0;
+    height: 43px;
+    min-width: 200px;
+
+    &--container {
+      background-color: #282828;
+      min-height: 42px;
+      min-width: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px 0 0 10px ;
+      border: 1.5px solid #575757;
+
+      svg {
+        margin-right: 10px;
+      }
+
+    }
+
+    input {
+      min-height: 40px;
+      border: 1.5px solid #575757;
+      border-radius: 0 10px 10px 0;
+      background-color: #282828;
+      width: 300px;
+      padding-left: 15px;
+      border-left: 0;
+    }
+  }
+}

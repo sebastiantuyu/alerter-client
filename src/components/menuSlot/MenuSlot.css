@@ -1,5 +1,5 @@
 .adl-menu-slot {
-  width: calc(100% - 15px);
+  /* width: calc(100% - 15px); */
   height: 80px;
   /* border-bottom: 1px solid #222; */
   display: flex;

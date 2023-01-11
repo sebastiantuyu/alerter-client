@@ -1,0 +1,23 @@
+.adl-dashboard {
+  width: inherit;
+  background: #222;
+  height: 100%;
+
+  &__share {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    z-index: 1;
+    background-color: #282828;
+    border: 1.5px solid #575757;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+    color: white;
+    font-size: 17px;
+    
+    span {
+      margin: 0 0 0 15px;
+    }
+  }
+}
