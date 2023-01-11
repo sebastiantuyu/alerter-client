@@ -1,0 +1,16 @@
+.adl-dashboard__serviceSlot {
+    width: 90%;
+    max-width: 650px;
+    min-width: 400px;
+    height: 300px;
+    background: #282828;  
+    border: 1.5px solid #575757;
+    border-radius: 15px;
+
+
+    &--title {
+      margin: 1em;
+      font-size: 24px;
+      font-weight: bold;
+    }
+}

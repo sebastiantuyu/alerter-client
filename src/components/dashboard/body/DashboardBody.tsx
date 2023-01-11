@@ -1,4 +1,5 @@
 import SearchBar from '../../searchBar/SearchBar';
+import ServiceSlot from '../../serviceSlot/ServiceSlot';
 import './DashboardBody.scss'
 
 const DashboardBody = ( ) => {
@@ -16,14 +17,15 @@ const DashboardBody = ( ) => {
         <SearchBar />
         
         <div className="adl-dashboard__body--grid">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+          {
+            [
+              'Backend',
+              'Frontend',
+              'SSO',
+              'Traffic',
+              'SSO',
+            ].map((v) => <ServiceSlot name={v}/>)
+          }
         </div>
       </div>
     )

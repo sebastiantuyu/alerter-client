@@ -7,7 +7,7 @@
     &--title {
       p {
         font-size: 28px;
-        margin: 0.25em auto;
+        margin: 1em auto 0.2em;
       }
       
       span {
@@ -17,24 +17,15 @@
     }
 
     &--grid {
-      height: calc(100% - 135px);
+      height: calc(100% - 165px);
       width: calc(100% - 30px);
       overflow-x: hidden !important;
       overflow-y: scroll;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-      grid-gap: 15px;
+      grid-gap: 25px 5px;
       justify-items: center;
-
-
-      div {
-        width: 90%;
-        max-width: 650px;
-        min-width: 400px;
-        height: 300px;
-        background: black;  
-      }
     }
   }
 }
